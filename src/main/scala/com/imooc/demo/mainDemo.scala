@@ -35,8 +35,8 @@ object mainDemo {
     /*val age = "1"
     println(Some(age))*/
 
-    val dataRDD = Array("hello","you","hello","me","hehe","hello","you","hello","me","hehe")
-
+    val aa = Tuple2("hello","you")
+    aa._1
   }
 
 }
